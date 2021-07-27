@@ -1,3 +1,5 @@
+Available to play at: http://tortoise-race.surge.sh/
+
 # tortoise-race
 
 An HTML, CSS and JS racing game to practice complex DOM manipulation.
