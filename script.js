@@ -61,11 +61,14 @@ replayButton.addEventListener("click", () => {
 
 addButton.addEventListener("click", () => {
   currNum += 1;
+  //create new div
   const newContent = document.createElement("div");
+  //add the tortoise class
   newContent.classList.add("tortoise");
+  //add the tortoise number
   newContent.innerText = currNum;
+  //append div child to raceArea parent
   raceArea.appendChild(newContent);
-  document.body.insertBefore(tortoiseTwo, raceArea);
 });
 
 function compare(a, b) {
